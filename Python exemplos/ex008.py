@@ -1,0 +1,7 @@
+m = float(input('Digite uma medida em metros para ver suas conversões: '))
+print('{}m equivale(m) a {}dm'.format(m, m * 10))
+print('{}m equivale(m) a {}cm'.format(m, m * 100))
+print('{}m equivale(m) a {}mm'.format(m, m * 1000))
+print('{}m equivale(m) a {}dam'.format(m, m / 10))
+print('{}m equivale(m) a {}hm'.format(m, m / 100))
+print('{}m equivale(m) a {}km'.format(m, m / 1000))
