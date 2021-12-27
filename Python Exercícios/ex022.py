@@ -1,10 +1,7 @@
-print('Separador de algarismos de um número')
-n = int(input('Digite um número de 0 a 9999:'))
-u = n // 1 % 10
-d = n // 10 % 10
-c = n // 100 % 10
-um = n // 1000 % 10
-print('Unidade {}'.format(u))
-print('Dezena {}'.format(d))
-print('Centena {}'.format(c))
-print('Unidade de milhar {}'.format(um))
+print('Analisador de nomes')
+nome = str(input('Digite seu nome completo: ')).strip()
+separa = nome.split()
+print('Seu nome em maiúsculo é {}.'.format(nome.upper()))
+print('Seu nome em minúsculo é {}.'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras.'.format(len(nome) - nome.count(' ')))
+print('O seu primeiro nome tem {} letras.'.format(len(separa[0])))
